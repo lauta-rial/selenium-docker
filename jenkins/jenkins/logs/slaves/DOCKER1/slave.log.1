@@ -1,0 +1,16 @@
+Inbound agent connected from 172.17.0.1/172.17.0.1:58526
+Remoting version: 3077.vd69cf116da_6f
+Launcher: JNLPLauncher
+Communication Protocol: JNLP4-connect
+This is a Windows agent
+Agent successfully connected and online
+ERROR: Connection terminated
+java.nio.channels.ClosedChannelException
+	at org.jenkinsci.remoting.protocol.NetworkLayer.onRecvClosed(NetworkLayer.java:155)
+	at org.jenkinsci.remoting.protocol.impl.NIONetworkLayer.ready(NIONetworkLayer.java:143)
+	at org.jenkinsci.remoting.protocol.IOHub$OnReady.run(IOHub.java:789)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:30)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:70)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)

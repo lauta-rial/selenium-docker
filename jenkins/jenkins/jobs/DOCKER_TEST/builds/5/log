@@ -1,0 +1,8 @@
+Started by user [8mha:////4DDEF28/jtTqGn9Orxvenw9iNAsXWV6p5dmh3wqzt50aAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CKgGaUliUX5ABpwTHjCAAAA[0mLautaro
+Running as SYSTEM
+Building remotely on [8mha:////4OH1COoglkKDlwXKF4/viHGHplnQ95RK8guYywmbcKG4AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQifRd/Z2/XIEMAeMyF+MYAAAA=[0mDOCKER1 in workspace D:\automation\jenkinsAgentNodeRoot\workspace\DOCKER_TEST
+[DOCKER_TEST] $ sh -xe C:\Users\riall\AppData\Local\Temp\jenkins7133771845087290779.sh
++ docker ps
+CONTAINER ID   IMAGE                 COMMAND                  CREATED       STATUS       PORTS                                              NAMES
+a907bd0e2651   jenkins/jenkins:lts   "/usr/bin/tini -- /u…"   2 hours ago   Up 2 hours   0.0.0.0:8080->8080/tcp, 0.0.0.0:50000->50000/tcp   zen_aryabhata
+Finished: SUCCESS
